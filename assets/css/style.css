@@ -1,0 +1,268 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #4e4e4e;
+	font-size: 18px;
+	line-height: 1.2;
+	background-color: #fff;
+}
+
+/* -------- MOBILE FIRST -------- */
+
+/* FOR ALL */
+
+.header, 
+.left, 
+.right, 
+footer {
+	width: 90%;
+	margin: auto;
+}
+
+.titles {
+	color: #f92015;
+	padding-top: 30px;
+}
+
+/* HEADER + IMG */
+
+.row {
+	clear: both;
+}
+
+.header {
+	text-align: center;
+	padding-top: 35px;
+	color: #000;
+}
+
+.header span {
+	color: #f92015;
+}
+
+.header img {
+	max-width: 30%;
+	border-radius: 50%;
+}
+
+.border_top {
+	border-top: solid 1px #c3c3c3;
+	margin: 3px 0;
+}
+
+/* --- LEFT --- */
+/* education */
+
+.left b, 
+.left h4 {
+	color:#000;
+}
+
+.education {
+	background-color: #e8e8e8;
+	padding: 2px 5px;
+}
+
+/* exp */
+
+.experience h4 {
+	margin-bottom: -18px;
+}
+
+/* --- RIGHT --- */
+/* skills */
+
+.right ul.skills {
+	list-style: none;
+}
+
+.skills h3 {
+	background-color: #f92015;
+	color: #fff;
+	padding: 4px;
+	margin: 8px 0;
+}
+
+.skill1 {
+	width: 90%
+}
+
+.skill2 {
+	width: 70%;
+}
+
+.skill3 {
+	width: 50%;
+}
+
+.skill4 {
+	width: 30%;
+}
+
+.skill5 {
+	width: 20%;
+}
+
+/* languages */
+
+.lang p {
+	width: 65%;
+}
+
+.lang ul li {
+	list-style: none;
+	float: left;
+	padding: 0 0.2rem;
+}
+
+.lang {
+	height: 3rem;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.lang p {
+	float: left;
+	width: 60%;
+}
+
+.right .fa {
+	font-size: 1.8em;
+	padding: 5px 0;
+	color: #f92015;
+}
+
+/* hobbies */
+
+.hobbies li {
+	list-style: none;
+}
+
+.hobbies h4 {
+	background-color: #ba3b5c;
+	width: 70%;
+	text-align: center;
+	color: #fff;
+	padding: 6px;
+	margin: 8px 0;
+
+}
+
+/* FOOTER */
+
+footer {
+	text-align: right;
+}
+
+/* -------- DESKTOP -------- */
+
+@media (min-width: 720px) {
+	body {
+	background-color: #e8e8e8;
+	font-size: 0.9rem;
+	}
+
+	/* hHEADER + IMG */
+
+	.header {
+		background-color: #fff;
+		width: 80%;
+		margin-top: 100px;
+		padding-bottom: 15px;
+	}
+
+	.header h1 {
+		margin: auto;
+		width: 90%;
+		padding: 20px 0 30px 0;
+	}
+
+	.header img {
+		margin-top: -120px;
+		border: 8px solid #e8e8e8;
+	}
+
+	/* MAIN CONTAINER */
+
+	.main {
+  	overflow: hidden;
+    width: 80%;
+    background-color: #fff;
+	}
+
+	.offset-10 {
+	margin-left: 10%;
+	}
+
+	/* LEFT CONTAINER*/
+
+	.left {
+		width: 55%;
+		float: left;
+		padding: 0 25px;
+	}
+
+	/* education */
+
+	h4.edu {
+		float: left;
+		margin-right: 1rem;
+	}
+
+	.education {
+		margin-bottom: 15px;
+		float: left;
+		width: 85%;
+	}
+
+	/* exp */
+
+	.experience {
+		float: left;
+		width: 20%;
+		margin-right: 7%;
+	}
+
+	.exp {
+		margin-bottom: 15px;
+		width: 73%;
+		float: left;
+	}
+
+	/* RIGHT CONTAINER*/
+
+	.right {
+		width: 45%;
+		float: left;
+		padding-right: 20px;
+	}
+
+	/* languages */
+
+	.lang {
+		height: 2.3rem;
+	}
+
+	/* hobbies */
+
+	.hobbies li {
+		float: left;
+		margin-right: 0.3rem;
+	}
+
+	.hobbies li h4 {
+		width: 100%;
+	}
+
+	/* FOOTER */
+
+	footer {
+		background-color: #fff;
+		width: 80%;
+		padding: 10px;
+	}
+}
